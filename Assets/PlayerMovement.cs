@@ -1,33 +1,39 @@
+
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float velocidad = 5f;
-    public float fuerzaSalto = 8f;
+    public float fuerzaSalto = 7f;
 
     private Rigidbody2D rb;
-    private bool puedeSaltar = true;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         float movimiento = Input.GetAxis("Horizontal");
 
-        rb.linearVelocity = new Vector2(movimiento * velocidad, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(
+            movimiento * velocidad,
+            rb.linearVelocity.y
+        );
 
-        if (Input.GetKeyDown(KeyCode.Space) && puedeSaltar)
+        animator.SetFloat("movement",
+                          Mathf.Abs(movimiento));
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaSalto);
-            puedeSaltar = false;
-        }
-    }
+            rb.linearVelocity =
+                new Vector2(rb.linearVelocity.x,
+                            fuerzaSalto);
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        puedeSaltar = true;
+            animator.SetTrigger("jump");
+        }
     }
 }
