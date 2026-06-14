@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,11 +7,14 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
+    private bool estaEnSuelo = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -24,16 +26,34 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        animator.SetFloat("movement",
-                          Mathf.Abs(movimiento));
+        animator.SetFloat("movement", Mathf.Abs(movimiento));
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (movimiento > 0)
         {
-            rb.linearVelocity =
-                new Vector2(rb.linearVelocity.x,
-                            fuerzaSalto);
+            spriteRenderer.flipX = false;
+        }
+        else if (movimiento < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
 
+        if (Input.GetKeyDown(KeyCode.Space) && estaEnSuelo)
+        {
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                fuerzaSalto
+            );
+
+            estaEnSuelo = false;
             animator.SetTrigger("jump");
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            estaEnSuelo = true;
         }
     }
 }
