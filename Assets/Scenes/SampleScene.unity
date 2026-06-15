@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 776957685}
   m_Layer: 0
   m_Name: 'Suelo '
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 879966010}
   m_Layer: 0
   m_Name: Suelo2
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 1322071657}
   m_Layer: 0
   m_Name: Suelo2 (1)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 1785728426}
   m_Layer: 0
   m_Name: Suelo  (1)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1054,7 +1054,7 @@ Transform:
   m_GameObject: {fileID: 1909024848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.25, y: -2.7, z: -0.02}
+  m_LocalPosition: {x: -7.36, y: -2.4, z: -0.02}
   m_LocalScale: {x: 1.1382267, y: 1.1542048, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   velocidad: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 7
 --- !u!95 &1909024854
 Animator:
   serializedVersion: 7
