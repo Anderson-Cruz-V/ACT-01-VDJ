@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5281fdb6b68da23408a751f61aece5a9
+guid: 77d024b18af177f4f95ae592b331e5de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2113203896963439368
-    second: Shuriquete_0
+      213: -2727645625170779063
+    second: Rasengan_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shuriquete_0
+      name: Rasengan_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 360
+        width: 894
+        height: 894
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80b1a708fbb935d10800000000000000
-      internalID: 2113203896963439368
+      spriteID: 9442c8e61c4752ad0800000000000000
+      internalID: -2727645625170779063
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shuriquete_0: 2113203896963439368
+      Rasengan_0: -2727645625170779063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

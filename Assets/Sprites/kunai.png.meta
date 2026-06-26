@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 343a0e546b9508949ace4c685f00b038
+guid: 0ead138be24641848a8bbabc443d17de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -709006370191721015
-    second: soldier_action1_0
+      213: -8491210270536088695
+    second: kunai_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -77,7 +77,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soldier_action1_0
+      name: kunai_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 70
-        height: 95
+        x: 122
+        y: 210
+        width: 391
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cdbb39767a1926f0800000000000000
-      internalID: -709006370191721015
+      spriteID: 9834c8f4f39292a80800000000000000
+      internalID: -8491210270536088695
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      soldier_action1_0: -709006370191721015
+      kunai_0: -8491210270536088695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
