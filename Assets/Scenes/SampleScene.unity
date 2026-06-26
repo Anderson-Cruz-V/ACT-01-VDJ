@@ -186,6 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffc1b544d1442b45962a9dbe665665c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shuriken
+  efecto: {fileID: 0}
+  cantidadPuntos: 500
+  puntaje: {fileID: 1623986209}
 --- !u!212 &132821322
 SpriteRenderer:
   serializedVersion: 2
@@ -327,6 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffc1b544d1442b45962a9dbe665665c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shuriken
+  efecto: {fileID: 0}
+  cantidadPuntos: 500
+  puntaje: {fileID: 1623986209}
 --- !u!212 &436078048
 SpriteRenderer:
   serializedVersion: 2
@@ -432,6 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffc1b544d1442b45962a9dbe665665c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shuriken
+  efecto: {fileID: 0}
+  cantidadPuntos: 200
+  puntaje: {fileID: 1623986209}
 --- !u!58 &488456285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1954,6 +1963,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffc1b544d1442b45962a9dbe665665c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shuriken
+  efecto: {fileID: 0}
+  cantidadPuntos: 100
+  puntaje: {fileID: 1623986209}
 --- !u!58 &1887581819
 CircleCollider2D:
   m_ObjectHideFlags: 0
