@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: dcae38863dbf85548b692aefd952ce59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8375140884181064092
+    second: Sakura Haruno_0
+  - first:
+      213: -2462831080618109805
+    second: Sakura Haruno_1
+  - first:
+      213: 5092084881619493353
+    second: Sakura Haruno_2
+  - first:
+      213: 8143531127177663446
+    second: Sakura Haruno_3
+  - first:
+      213: -797979309693832225
+    second: Sakura Haruno_4
+  - first:
+      213: -1393784229600349857
+    second: Sakura Haruno_5
+  - first:
+      213: 7406038158265327966
+    second: Sakura Haruno_6
+  - first:
+      213: 8085075136540437525
+    second: Sakura Haruno_7
+  - first:
+      213: 2271834049666782529
+    second: Sakura Haruno_8
+  - first:
+      213: 4989880302158927807
+    second: Sakura Haruno_9
+  - first:
+      213: 5384111094511129834
+    second: Sakura Haruno_10
+  - first:
+      213: -2195486006313481037
+    second: Sakura Haruno_11
+  - first:
+      213: 9107016840837049604
+    second: Sakura Haruno_12
+  - first:
+      213: 8215574678567099719
+    second: Sakura Haruno_13
+  - first:
+      213: -1327066877676199763
+    second: Sakura Haruno_14
+  - first:
+      213: -3370192008006810629
+    second: Sakura Haruno_15
+  - first:
+      213: 1205110306233532527
+    second: Sakura Haruno_16
+  - first:
+      213: -1220396844813685015
+    second: Sakura Haruno_17
+  - first:
+      213: -7277582813720194190
+    second: Sakura Haruno_18
+  - first:
+      213: 7007873559286422882
+    second: Sakura Haruno_19
+  - first:
+      213: 8336120976164513277
+    second: Sakura Haruno_20
+  - first:
+      213: 2590380200641641689
+    second: Sakura Haruno_21
+  - first:
+      213: 8156189027979500137
+    second: Sakura Haruno_22
+  - first:
+      213: -8788842304252361787
+    second: Sakura Haruno_23
+  - first:
+      213: 3668432729774506098
+    second: Sakura Haruno_24
+  - first:
+      213: -8949398516956562598
+    second: Sakura Haruno_25
+  - first:
+      213: 5223690672096526173
+    second: Sakura Haruno_26
+  - first:
+      213: -3444176768033717741
+    second: Sakura Haruno_27
+  - first:
+      213: 4006051584567857406
+    second: Sakura Haruno_28
+  - first:
+      213: 8814937237193738430
+    second: Sakura Haruno_29
+  - first:
+      213: -5305029304555246591
+    second: Sakura Haruno_30
+  - first:
+      213: -6153348314289811659
+    second: Sakura Haruno_31
+  - first:
+      213: 777889401326756793
+    second: Sakura Haruno_32
+  - first:
+      213: -7856672081813449372
+    second: Sakura Haruno_33
+  - first:
+      213: -4011989915855618561
+    second: Sakura Haruno_34
+  - first:
+      213: 8089663843764435631
+    second: Sakura Haruno_35
+  - first:
+      213: 1295051627156304335
+    second: Sakura Haruno_36
+  - first:
+      213: -5479135427012148940
+    second: Sakura Haruno_37
+  - first:
+      213: 565494781260786996
+    second: Sakura Haruno_38
+  - first:
+      213: -3570731071059970290
+    second: Sakura Haruno_39
+  - first:
+      213: 3986263632703145678
+    second: Sakura Haruno_40
+  - first:
+      213: -1763231061300481336
+    second: Sakura Haruno_41
+  - first:
+      213: -6083115088217562542
+    second: Sakura Haruno_42
+  - first:
+      213: 1971033407793295941
+    second: Sakura Haruno_43
+  - first:
+      213: -8567595985595891757
+    second: Sakura Haruno_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sakura Haruno_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 351
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466698e3db585cb80800000000000000
+      internalID: -8375140884181064092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 336
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39457f94e2442ddd0800000000000000
+      internalID: -2462831080618109805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 349
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e121178838baa640800000000000000
+      internalID: 5092084881619493353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3d2c4f962a30170800000000000000
+      internalID: 8143531127177663446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 350
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd37693bb020de4f0800000000000000
+      internalID: -797979309693832225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 357
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f513125b0a848ace0800000000000000
+      internalID: -1393784229600349857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 346
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51a460577887c660800000000000000
+      internalID: 7406038158265327966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_7
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 293
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ce5d70005f33070800000000000000
+      internalID: 8085075136540437525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_8
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 310
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145960f080d278f10800000000000000
+      internalID: 2271834049666782529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 298
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d6e182bd9f3540800000000000000
+      internalID: 4989880302158927807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 345
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae45393a38438ba40800000000000000
+      internalID: 5384111094511129834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 345
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc08540c111881e0800000000000000
+      internalID: -2195486006313481037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 298
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da791d09f926e70800000000000000
+      internalID: 9107016840837049604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 343
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d9fa564a5930270800000000000000
+      internalID: 8215574678567099719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 298
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da06ce2b4bf459de0800000000000000
+      internalID: -1327066877676199763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 341
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3c4e9893caa31d0800000000000000
+      internalID: -3370192008006810629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 341
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f604636407969b010800000000000000
+      internalID: 1205110306233532527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_17
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 332
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee6fdb1987401fe0800000000000000
+      internalID: -1220396844813685015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_18
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 302
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27358bc3df4d00b90800000000000000
+      internalID: -7277582813720194190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_19
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 298
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d9e147fd7f04160800000000000000
+      internalID: 7007873559286422882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 316
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5e7f47cd9dfa370800000000000000
+      internalID: 8336120976164513277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_21
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 330
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc337c6111e2f320800000000000000
+      internalID: 2590380200641641689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 298
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a18a525ba903170800000000000000
+      internalID: 8156189027979500137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 309
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3cc145d72c70680800000000000000
+      internalID: -8788842304252361787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_24
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 319
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27040aca124e8e230800000000000000
+      internalID: 3668432729774506098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 301
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b756bf6795dc380800000000000000
+      internalID: -8949398516956562598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_26
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 179
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fb5de6df64e7840800000000000000
+      internalID: 5223690672096526173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 230
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31282bd3a73d330d0800000000000000
+      internalID: -3444176768033717741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 172
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0de02f0ba589730800000000000000
+      internalID: 4006051584567857406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 215
+        width: 12
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8cb44b6b2f45a70800000000000000
+      internalID: 8814937237193738430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 167
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c62fa64ffb066b0800000000000000
+      internalID: -5305029304555246591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 198
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fc18b5f4aea9aa0800000000000000
+      internalID: -6153348314289811659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_32
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 196
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b36f900a4e9bca00800000000000000
+      internalID: 777889401326756793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_33
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 198
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d7c63e5e77f290800000000000000
+      internalID: -7856672081813449372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_34
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 178
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdf9fe8d6c8258c0800000000000000
+      internalID: -4011989915855618561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 202
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa76efa762444070800000000000000
+      internalID: 8089663843764435631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_36
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 172
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1717ae792f8f110800000000000000
+      internalID: 1295051627156304335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 58
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431ceacdb5336f3b0800000000000000
+      internalID: -5479135427012148940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 58
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43de267e18a09d700800000000000000
+      internalID: 565494781260786996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_39
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 58
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0735096207327ec0800000000000000
+      internalID: -3570731071059970290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_40
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 58
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6445067ad025730800000000000000
+      internalID: 3986263632703145678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_41
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 58
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2ff3611beb787e0800000000000000
+      internalID: -1763231061300481336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_42
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 58
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25229f69e0f649ba0800000000000000
+      internalID: -6083115088217562542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_43
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 58
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54272fff0748a5b10800000000000000
+      internalID: 1971033407793295941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakura Haruno_44
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 78
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df7e7b18d8c91980800000000000000
+      internalID: -8567595985595891757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sakura Haruno_0: -8375140884181064092
+      Sakura Haruno_1: -2462831080618109805
+      Sakura Haruno_10: 5384111094511129834
+      Sakura Haruno_11: -2195486006313481037
+      Sakura Haruno_12: 9107016840837049604
+      Sakura Haruno_13: 8215574678567099719
+      Sakura Haruno_14: -1327066877676199763
+      Sakura Haruno_15: -3370192008006810629
+      Sakura Haruno_16: 1205110306233532527
+      Sakura Haruno_17: -1220396844813685015
+      Sakura Haruno_18: -7277582813720194190
+      Sakura Haruno_19: 7007873559286422882
+      Sakura Haruno_2: 5092084881619493353
+      Sakura Haruno_20: 8336120976164513277
+      Sakura Haruno_21: 2590380200641641689
+      Sakura Haruno_22: 8156189027979500137
+      Sakura Haruno_23: -8788842304252361787
+      Sakura Haruno_24: 3668432729774506098
+      Sakura Haruno_25: -8949398516956562598
+      Sakura Haruno_26: 5223690672096526173
+      Sakura Haruno_27: -3444176768033717741
+      Sakura Haruno_28: 4006051584567857406
+      Sakura Haruno_29: 8814937237193738430
+      Sakura Haruno_3: 8143531127177663446
+      Sakura Haruno_30: -5305029304555246591
+      Sakura Haruno_31: -6153348314289811659
+      Sakura Haruno_32: 777889401326756793
+      Sakura Haruno_33: -7856672081813449372
+      Sakura Haruno_34: -4011989915855618561
+      Sakura Haruno_35: 8089663843764435631
+      Sakura Haruno_36: 1295051627156304335
+      Sakura Haruno_37: -5479135427012148940
+      Sakura Haruno_38: 565494781260786996
+      Sakura Haruno_39: -3570731071059970290
+      Sakura Haruno_4: -797979309693832225
+      Sakura Haruno_40: 3986263632703145678
+      Sakura Haruno_41: -1763231061300481336
+      Sakura Haruno_42: -6083115088217562542
+      Sakura Haruno_43: 1971033407793295941
+      Sakura Haruno_44: -8567595985595891757
+      Sakura Haruno_5: -1393784229600349857
+      Sakura Haruno_6: 7406038158265327966
+      Sakura Haruno_7: 8085075136540437525
+      Sakura Haruno_8: 2271834049666782529
+      Sakura Haruno_9: 4989880302158927807
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

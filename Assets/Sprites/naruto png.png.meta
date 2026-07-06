@@ -1081,13 +1081,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_44
+      name: Danio-06
       rect:
         serializedVersion: 2
-        x: 456
-        y: 2237
-        width: 114
-        height: 86
+        x: 328
+        y: 2128
+        width: 83
+        height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1103,13 +1103,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_45
+      name: Danio-02
       rect:
         serializedVersion: 2
-        x: 570
-        y: 2237
-        width: 114
-        height: 86
+        x: 657
+        y: 2134
+        width: 81
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1125,15 +1125,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_46
+      name: Danio-01
       rect:
         serializedVersion: 2
-        x: 684
-        y: 2237
-        width: 114
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 744
+        y: 2132
+        width: 78
+        height: 79
+      alignment: 9
+      pivot: {x: 0.51950073, y: 0.3449111}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1169,13 +1169,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_48
+      name: Danio-09
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2151
-        width: 114
-        height: 86
+        x: 84
+        y: 2131
+        width: 84
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1191,13 +1191,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_49
+      name: Danio-08
       rect:
         serializedVersion: 2
-        x: 114
-        y: 2151
-        width: 114
-        height: 86
+        x: 166
+        y: 2131
+        width: 85
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1213,13 +1213,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_50
+      name: Danio-07
       rect:
         serializedVersion: 2
         x: 228
-        y: 2151
-        width: 114
-        height: 86
+        y: 2133
+        width: 102
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,15 +1235,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_51
+      name: Danio-05
       rect:
         serializedVersion: 2
-        x: 342
-        y: 2151
-        width: 114
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 410
+        y: 2130
+        width: 80
+        height: 79
+      alignment: 9
+      pivot: {x: 0.46648407, y: 0.44343355}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1257,15 +1257,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_52
+      name: Danio-04
       rect:
         serializedVersion: 2
-        x: 456
-        y: 2151
-        width: 114
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 492
+        y: 2133
+        width: 81
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4448295, y: 0.26785398}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1279,13 +1279,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto png_53
+      name: Danio-03
       rect:
         serializedVersion: 2
-        x: 570
-        y: 2151
-        width: 114
-        height: 86
+        x: 574
+        y: 2132
+        width: 80
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,8 +1304,8 @@ TextureImporter:
       name: naruto png_54
       rect:
         serializedVersion: 2
-        x: 684
-        y: 2151
+        x: 708
+        y: 2131
         width: 114
         height: 86
       alignment: 0
@@ -5762,6 +5762,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":32.0},"gridSpriteSize":{"x":114.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      Danio-01: 2106453071
+      Danio-02: 399426534
+      Danio-03: -1473251759
+      Danio-04: 1942794572
+      Danio-05: 1345391676
+      Danio-06: -1736657180
+      Danio-07: 1958095398
+      Danio-08: -2016591936
+      Danio-09: -1548447193
       naruto png_0: 5341167441629392104
       naruto png_1: -1031687864
       naruto png_10: 738438032
@@ -5957,17 +5966,8 @@ TextureImporter:
       naruto png_41: -1640034284
       naruto png_42: -964683418
       naruto png_43: 1359014674
-      naruto png_44: -1736657180
-      naruto png_45: 399426534
-      naruto png_46: 2106453071
       naruto png_47: -689332689
-      naruto png_48: -1548447193
-      naruto png_49: -2016591936
       naruto png_5: 1740214118
-      naruto png_50: 1958095398
-      naruto png_51: 1345391676
-      naruto png_52: 1942794572
-      naruto png_53: -1473251759
       naruto png_54: -613447914
       naruto png_55: 618051437
       naruto png_56: 580798790

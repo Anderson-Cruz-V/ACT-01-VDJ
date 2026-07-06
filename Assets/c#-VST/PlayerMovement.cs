@@ -4,11 +4,14 @@ public class PlayerController : MonoBehaviour
 {
     public float velocidad = 5f;
     public float fuerzaSalto = 7f;
+    public float tiempoDanio = 0.6f;
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
     private bool estaEnSuelo = true;
+    private bool recibiendoDanio = false;
 
     void Start()
     {
@@ -19,6 +22,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (recibiendoDanio)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            animator.SetFloat("movement", 0);
+            return;
+        }
+
         float movimiento = Input.GetAxis("Horizontal");
 
         rb.linearVelocity = new Vector2(
@@ -55,5 +65,31 @@ public class PlayerController : MonoBehaviour
         {
             estaEnSuelo = true;
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            RecibirDanio();
+        }
+    }
+
+    void RecibirDanio()
+    {
+        if (recibiendoDanio)
+        {
+            return;
+        }
+
+        recibiendoDanio = true;
+
+        rb.linearVelocity = Vector2.zero;
+        animator.SetFloat("movement", 0);
+        animator.SetTrigger("Danio");
+
+        Invoke(nameof(TerminarDanio), tiempoDanio);
+    }
+
+    void TerminarDanio()
+    {
+        recibiendoDanio = false;
     }
 }
