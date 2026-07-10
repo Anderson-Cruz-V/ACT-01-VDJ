@@ -332,8 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_1
+      name: IN001
       rect:
         serializedVersion: 2
         x: 29
@@ -450,10 +449,10 @@ TextureImporter:
       name: EnemigoSquare
       rect:
         serializedVersion: 2
-        x: 260
-        y: 298
-        width: 59
-        height: 64
+        x: 269
+        y: 301
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +678,10 @@ TextureImporter:
         - Kakashi Hatake_16
       rect:
         serializedVersion: 2
-        x: 383
-        y: 289
-        width: 57
-        height: 82
+        x: 382
+        y: 293
+        width: 56
+        height: 74
       alignment: 9
       pivot: {x: 0.42737246, y: 0.5484649}
       border: {x: 7, y: 7, z: 0, w: 4}
@@ -1319,17 +1318,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_44
+      name: CM001
       rect:
         serializedVersion: 2
-        x: 34
-        y: 57
+        x: 35
+        y: 56
         width: 33
         height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.46780777, y: 0.4489256}
+      border: {x: 0, y: 2, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1342,17 +1340,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_45
+      name: CM002
       rect:
         serializedVersion: 2
         x: 153
-        y: 57
+        y: 54
         width: 35
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 4, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1365,17 +1362,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_46
+      name: CM003
       rect:
         serializedVersion: 2
         x: 271
-        y: 57
+        y: 56
         width: 34
         height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4591558}
+      border: {x: 0, y: 2, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1388,17 +1384,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_47
+      name: CM004
       rect:
         serializedVersion: 2
         x: 394
         y: 57
         width: 33
         height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.5242596, y: 0.46920967}
+      border: {x: 0, y: 1, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1411,17 +1406,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
-        - Kakashi Hatake_48
+      name: CM005
       rect:
         serializedVersion: 2
-        x: 514
+        x: 512
         y: 57
         width: 34
         height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.58241004, y: 0.45196733}
+      border: {x: 0, y: 2, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1438,7 +1432,7 @@ TextureImporter:
         - Kakashi Hatake_49
       rect:
         serializedVersion: 2
-        x: 631
+        x: 630
         y: 57
         width: 34
         height: 49
@@ -1539,10 +1533,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      CM001: 158250726250126377
+      CM002: 3571444665421513198
+      CM003: 6485987888399215940
+      CM004: 1174039335636893937
+      CM005: -1950161862191415143
       EnemigoSquare: -1668952985867524916
+      IN001: -6624841397124775695
       Inicio-enmy: -4744359613816218827
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_0: 7704177399631087347
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_1: -6624841397124775695
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_10: 1229283304297281111
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_11: 5248994295443661827
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_12: -7102789401446839635
@@ -1580,11 +1579,6 @@ TextureImporter:
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_41: -4739691988414744518
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_42: -872779020408055167
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_43: 6100043990641874885
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_44: 158250726250126377
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_45: 3571444665421513198
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_46: 6485987888399215940
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_47: 1174039335636893937
-      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_48: -1950161862191415143
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_49: 8777973089520894585
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_5: -979147190409160485
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_50: 2092694283181707120
