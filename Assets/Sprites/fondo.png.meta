@@ -103,12 +103,12 @@ TextureImporter:
       name: fondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2508
-        height: 627
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 996
+        y: 244
+        width: 368
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5045537, y: 0.36457577}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e7d60fdda4f2524aa55cd5065b4c569
     internalID: 0
     vertices: []
     indices: 
