@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_7
+      name: ATS003
       rect:
         serializedVersion: 2
         x: 625
@@ -408,7 +408,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_8
+      name: IS001
       rect:
         serializedVersion: 2
         x: 876
@@ -628,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_18
+      name: ATS002
       rect:
         serializedVersion: 2
         x: 509
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_22
+      name: ATS001
       rect:
         serializedVersion: 2
         x: 388
@@ -1046,7 +1046,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_37
+      name: SC001
       rect:
         serializedVersion: 2
         x: 30
@@ -1068,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_38
+      name: SC002
       rect:
         serializedVersion: 2
         x: 151
@@ -1090,7 +1090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_39
+      name: SC003
       rect:
         serializedVersion: 2
         x: 268
@@ -1112,10 +1112,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_40
+      name: SC004
       rect:
         serializedVersion: 2
-        x: 390
+        x: 389
         y: 58
         width: 34
         height: 46
@@ -1134,7 +1134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_41
+      name: SC005
       rect:
         serializedVersion: 2
         x: 511
@@ -1156,10 +1156,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_42
+      name: SC006
       rect:
         serializedVersion: 2
-        x: 628
+        x: 629
         y: 58
         width: 36
         height: 43
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sakura Haruno_43
+      name: SC007
       rect:
         serializedVersion: 2
         x: 750
@@ -1235,6 +1235,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      ATS001: 8156189027979500137
+      ATS002: -7277582813720194190
+      ATS003: 8085075136540437525
+      IS001: 2271834049666782529
+      SC001: -5479135427012148940
+      SC002: 565494781260786996
+      SC003: -3570731071059970290
+      SC004: 3986263632703145678
+      SC005: -1763231061300481336
+      SC006: -6083115088217562542
+      SC007: 1971033407793295941
       Sakura Haruno_0: -8375140884181064092
       Sakura Haruno_1: -2462831080618109805
       Sakura Haruno_10: 5384111094511129834
@@ -1245,11 +1256,9 @@ TextureImporter:
       Sakura Haruno_15: -3370192008006810629
       Sakura Haruno_16: 1205110306233532527
       Sakura Haruno_17: -1220396844813685015
-      Sakura Haruno_18: -7277582813720194190
       Sakura Haruno_2: 5092084881619493353
       Sakura Haruno_20: 8336120976164513277
       Sakura Haruno_21: 2590380200641641689
-      Sakura Haruno_22: 8156189027979500137
       Sakura Haruno_23: -8788842304252361787
       Sakura Haruno_24: 3668432729774506098
       Sakura Haruno_25: -8949398516956562598
@@ -1265,19 +1274,10 @@ TextureImporter:
       Sakura Haruno_34: -4011989915855618561
       Sakura Haruno_35: 8089663843764435631
       Sakura Haruno_36: 1295051627156304335
-      Sakura Haruno_37: -5479135427012148940
-      Sakura Haruno_38: 565494781260786996
-      Sakura Haruno_39: -3570731071059970290
       Sakura Haruno_4: -797979309693832225
-      Sakura Haruno_40: 3986263632703145678
-      Sakura Haruno_41: -1763231061300481336
-      Sakura Haruno_42: -6083115088217562542
-      Sakura Haruno_43: 1971033407793295941
       Sakura Haruno_44: -8567595985595891757
       Sakura Haruno_5: -1393784229600349857
       Sakura Haruno_6: 7406038158265327966
-      Sakura Haruno_7: 8085075136540437525
-      Sakura Haruno_8: 2271834049666782529
       Sakura Haruno_9: 4989880302158927807
       Sakura001: 7007873559286422882
   mipmapLimitGroupName: 
