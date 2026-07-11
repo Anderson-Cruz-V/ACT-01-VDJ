@@ -453,7 +453,7 @@ TextureImporter:
         width: 0
         height: 0
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -466,11 +466,255 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: KCM005
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 58
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9fd55afac59741b5592e65fbef520
+      internalID: 728677635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
+        - Kakashi Hatake_4
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 190
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40afb3a0e9d959345a58a1b95ba14b61
+      internalID: 970361198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDIN001
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 296
+        width: 41
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5403889, y: 0.410005}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e02def4b8a147a4f9d88ce2f4791499
+      internalID: 1708932554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo0.2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 296
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d98031b40b099547808ea5af78f6f1b
+      internalID: -1244549595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KCM001
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c96c0c767db14848b96d4b370526be3
+      internalID: 417422387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KCM002
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 57
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c7c00f9110c664898de76d18bdeb69
+      internalID: 29649266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KCM003
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 58
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513922c10b843046b76e1b26c823035
+      internalID: -703281909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KCM004
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 56
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b624cb5c722cf2b499ad953c858809e9
+      internalID: 1467886373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KCM006
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 57
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb8fb0f2afd40d4ca69c7a493e8bf82
+      internalID: 1412118209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden
+        - Kakashi Hatake_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 57
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d669d0216cb6244e80eb26d160e59ac
+      internalID: -116505682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K007
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 299
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d998e2c103cc654a9d05ada6805aacd
+      internalID: 41915088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ace47b816a3c6c479633cd93b80136a
     internalID: 0
     vertices: []
     indices: 
@@ -480,12 +724,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Enemigo0.2: -1244549595
+      IDIN001: 1708932554
       IN001: -1437141058070533548
       IN002: 2767315480766033751
       IN003: -5134762707662649892
+      K007: 41915088
+      KCM001: 417422387
+      KCM002: 29649266
+      KCM003: -703281909
+      KCM004: 1467886373
+      KCM005: 728677635
+      KCM006: 1412118209
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_0: 7704177399631087347
+      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_11: -116505682
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_2: -6432582820316244520
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_3: 1999568574946437131
+      Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_4: 970361198
       Mobile - Senran no Samurai Kingdom (JPN) - Characters - Naruto_ Shippuden - Kakashi Hatake_5: -979147190409160485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
