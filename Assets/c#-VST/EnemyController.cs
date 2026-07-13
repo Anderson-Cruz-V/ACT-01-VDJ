@@ -1,66 +1,85 @@
 using UnityEngine;
 
-public class SimpleEnemy : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
-    public float speed = 1f;
-    public float distance = 1f;
+    // Jugador que el enemigo va a seguir.
+    public Transform player;
 
-    private Vector3 startingPosition;
-    public Vector3 rightPosition;
-    public Vector3 leftPosition;
-    public Vector3 currentPosition;
-    public float currentDistance;
+    // Distancia horizontal para detectar al jugador.
+    // Si está muy bajo, el enemigo solo corre cuando el jugador está pegado.
+    public float detectionRadius = 15.0f;
 
-    private bool movingRight = true;
+    // Distancia vertical permitida.
+    // Sirve para saber si el jugador está en el mismo suelo.
+    public float verticalRange = 2.0f;
+
+    // Velocidad del enemigo.
+    public float speed = 2.0f;
+
+    private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private Vector2 movement;
 
     void Start()
     {
-        currentPosition = transform.position;
-        startingPosition = transform.position;
-
-        // Se calcula hasta dónde puede caminar el enemigo hacia la derecha.
-        rightPosition = startingPosition + Vector3.right * distance;
-
-        // Se calcula hasta dónde puede caminar el enemigo hacia la izquierda.
-        leftPosition = startingPosition + Vector3.left * distance;
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        currentDistance = Vector2.Distance(transform.position, startingPosition);
-
-        // Si el enemigo está caminando hacia la derecha.
-        if (movingRight)
+        if (player == null)
         {
-            // El enemigo camina hacia la derecha.
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            movement = Vector2.zero;
+            animator.SetBool("Caminando", false);
+            return;
+        }
 
-            // Cuando llega a la distancia indicada, se vira.
-            if (Vector2.Distance(transform.position, startingPosition) >= distance)
+        // Distancia izquierda/derecha entre enemigo y jugador.
+        float distanceX = Mathf.Abs(player.position.x - transform.position.x);
+
+        // Distancia arriba/abajo entre enemigo y jugador.
+        float distanceY = Mathf.Abs(player.position.y - transform.position.y);
+
+        // Si el jugador está en otra plataforma, el enemigo se queda quieto.
+        if (distanceY > verticalRange)
+        {
+            movement = Vector2.zero;
+            animator.SetBool("Caminando", false);
+            return;
+        }
+
+        // Si el jugador está en el mismo suelo y dentro del rango, lo persigue.
+        if (distanceX <= detectionRadius)
+        {
+            float directionX = player.position.x - transform.position.x;
+
+            if (directionX > 0)
             {
-                movingRight = false;
-                Flip();
+                // Jugador a la derecha.
+                movement = new Vector2(1, 0);
+                spriteRenderer.flipX = false;
             }
+            else if (directionX < 0)
+            {
+                // Jugador a la izquierda.
+                movement = new Vector2(-1, 0);
+                spriteRenderer.flipX = true;
+            }
+
+            animator.SetBool("Caminando", true);
         }
         else
         {
-            // El enemigo camina hacia la izquierda.
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
-
-            // Cuando llega a la distancia indicada, se vira otra vez.
-            if (Vector2.Distance(transform.position, startingPosition) >= distance)
-            {
-                movingRight = true;
-                Flip();
-            }
+            movement = Vector2.zero;
+            animator.SetBool("Caminando", false);
         }
     }
 
-    void Flip()
+    void FixedUpdate()
     {
-        // Cambia la dirección visual del enemigo.
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 }

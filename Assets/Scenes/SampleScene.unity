@@ -444,11 +444,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ComplexEnemy
   player: {fileID: 1909024852}
+  detectionRange: 5
+  attackRange: 1.5
+  verticalRange: 1.2
   speed: 2
-  detectionRadius: 5
-  attackRadius: 2
-  patrolDistance: 3
-  attackCooldown: 2
+  attackCooldown: 1.5
 --- !u!95 &180399537
 Animator:
   serializedVersion: 7
@@ -651,6 +651,7 @@ MonoBehaviour:
   player: {fileID: 1909024852}
   detectionRadius: 5
   speed: 2
+  invertirSprite: 1
 --- !u!95 &468765911
 Animator:
   serializedVersion: 7
