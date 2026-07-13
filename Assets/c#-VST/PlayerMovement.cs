@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float velocidad = 5f;
-    public float fuerzaSalto = 7f;
-    public float tiempoDanio = 0.6f;
+    public float fuerzaSalto = 12f;
+    public float tiempoDanio = 0.3f;
 
     private Rigidbody2D rb;
     private Animator animator;
