@@ -1,53 +1,66 @@
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class SimpleEnemy : MonoBehaviour
 {
-    public Transform player;
-    public float detectionRadius = 5.0f;
-    public float speed = 2.0f;
+    public float speed = 1f;
+    public float distance = 1f;
 
-    private Rigidbody2D rd;
-    private Vector2 movement;
-    private SpriteRenderer spriteRenderer;
-    private Animator animator;
+    private Vector3 startingPosition;
+    public Vector3 rightPosition;
+    public Vector3 leftPosition;
+    public Vector3 currentPosition;
+    public float currentDistance;
+
+    private bool movingRight = true;
 
     void Start()
     {
-        rd = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+        currentPosition = transform.position;
+        startingPosition = transform.position;
+
+        // Se calcula hasta dónde puede caminar el enemigo hacia la derecha.
+        rightPosition = startingPosition + Vector3.right * distance;
+
+        // Se calcula hasta dónde puede caminar el enemigo hacia la izquierda.
+        leftPosition = startingPosition + Vector3.left * distance;
     }
 
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        currentDistance = Vector2.Distance(transform.position, startingPosition);
 
-        if (distanceToPlayer < detectionRadius)
+        // Si el enemigo está caminando hacia la derecha.
+        if (movingRight)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
+            // El enemigo camina hacia la derecha.
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-            movement = new Vector2(direction.x, 0);
-
-            animator.SetBool("Caminando", true);
-
-            if (direction.x > 0)
+            // Cuando llega a la distancia indicada, se vira.
+            if (Vector2.Distance(transform.position, startingPosition) >= distance)
             {
-                spriteRenderer.flipX = false;
-            }
-            else if (direction.x < 0)
-            {
-                spriteRenderer.flipX = true;
+                movingRight = false;
+                Flip();
             }
         }
         else
         {
-            movement = Vector2.zero;
-            animator.SetBool("Caminando", false);
+            // El enemigo camina hacia la izquierda.
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
+
+            // Cuando llega a la distancia indicada, se vira otra vez.
+            if (Vector2.Distance(transform.position, startingPosition) >= distance)
+            {
+                movingRight = true;
+                Flip();
+            }
         }
     }
 
-    void FixedUpdate()
+    void Flip()
     {
-        rd.MovePosition(rd.position + movement * speed * Time.fixedDeltaTime);
+        // Cambia la dirección visual del enemigo.
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }

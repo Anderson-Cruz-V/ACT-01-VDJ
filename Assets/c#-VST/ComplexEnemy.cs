@@ -3,109 +3,70 @@ using UnityEngine;
 public class ComplexEnemy : MonoBehaviour
 {
     public Transform player;
+    public float detectionRange = 5f;
+    public float attackRange = 1.5f;
+    public float verticalRange = 1.2f;
     public float speed = 2f;
-    public float detectionRadius = 5f;
-    public float attackRadius = 2f;
-    public float patrolDistance = 3f;
-    public float attackCooldown = 2f;
 
-    private Rigidbody2D rb;
+    private bool facingRight = true;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
-
-    private Vector2 startPosition;
-    private int direction = 1;
-    private float lastAttackTime;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        startPosition = transform.position;
     }
 
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceX = Mathf.Abs(player.position.x - transform.position.x);
+        float distanceY = Mathf.Abs(player.position.y - transform.position.y);
 
-        if (distanceToPlayer <= attackRadius)
+        // Si el jugador no está en la misma plataforma, el enemigo se queda quieto.
+        if (distanceY > verticalRange)
         {
-            movementStop();
-            AttackPlayer();
+            animator.SetBool("Caminando", false);
+            return;
         }
-        else if (distanceToPlayer <= detectionRadius)
+
+        // Si el jugador está muy cerca, el enemigo ataca.
+        if (distanceX <= attackRange)
         {
-            FollowPlayer();
-        }
-        else
-        {
-            Patrol();
-        }
-    }
-
-    void Patrol()
-    {
-        animator.SetBool("Caminando", true);
-
-        rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
-
-        if (transform.position.x >= startPosition.x + patrolDistance)
-        {
-            direction = -1;
-            Flip();
-        }
-        else if (transform.position.x <= startPosition.x - patrolDistance)
-        {
-            direction = 1;
-            Flip();
-        }
-    }
-
-    void FollowPlayer()
-    {
-        animator.SetBool("Caminando", true);
-
-        float directionToPlayer = player.position.x - transform.position.x;
-
-        if (directionToPlayer > 0)
-        {
-            rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
-            spriteRenderer.flipX = false;
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
-            spriteRenderer.flipX = true;
-        }
-    }
-
-    void AttackPlayer()
-    {
-        animator.SetBool("Caminando", false);
-
-        if (Time.time >= lastAttackTime + attackCooldown)
-        {
+            animator.SetBool("Caminando", false);
             animator.SetTrigger("Atacar");
-            lastAttackTime = Time.time;
+            return;
         }
-    }
 
-    void movementStop()
-    {
-        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        // Si el jugador está cerca, el enemigo camina hacia él.
+        if (distanceX <= detectionRange)
+        {
+            float directionX = player.position.x - transform.position.x;
+
+            if (directionX > 0 && !facingRight)
+            {
+                Flip();
+            }
+            else if (directionX < 0 && facingRight)
+            {
+                Flip();
+            }
+
+            animator.SetBool("Caminando", true);
+
+            float movimiento = Mathf.Sign(directionX);
+            transform.Translate(Vector2.right * movimiento * speed * Time.deltaTime);
+        }
+        else
+        {
+            animator.SetBool("Caminando", false);
+        }
     }
 
     void Flip()
     {
-        if (direction > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else
-        {
-            spriteRenderer.flipX = true;
-        }
+        facingRight = !facingRight;
+
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }
