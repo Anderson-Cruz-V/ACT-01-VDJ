@@ -6,19 +6,21 @@ public class EnemyController : MonoBehaviour
     public Transform player;
 
     // Distancia horizontal para detectar al jugador.
-    // Si está muy bajo, el enemigo solo corre cuando el jugador está pegado.
     public float detectionRadius = 15.0f;
 
     // Distancia vertical permitida.
-    // Sirve para saber si el jugador está en el mismo suelo.
     public float verticalRange = 2.0f;
 
     // Velocidad del enemigo.
     public float speed = 2.0f;
 
+    // Distancia mínima para dejar de avanzar.
+    public float distanciaMinima = 0.5f;
+
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+
     private Vector2 movement;
 
     void Start()
@@ -32,40 +34,41 @@ public class EnemyController : MonoBehaviour
     {
         if (player == null)
         {
-            movement = Vector2.zero;
-            animator.SetBool("Caminando", false);
+            DetenerEnemigo();
             return;
         }
 
-        // Distancia izquierda/derecha entre enemigo y jugador.
-        float distanceX = Mathf.Abs(player.position.x - transform.position.x);
+        // Distancia horizontal entre enemigo y jugador.
+        float distanceX =
+            Mathf.Abs(player.position.x - transform.position.x);
 
-        // Distancia arriba/abajo entre enemigo y jugador.
-        float distanceY = Mathf.Abs(player.position.y - transform.position.y);
+        // Distancia vertical entre enemigo y jugador.
+        float distanceY =
+            Mathf.Abs(player.position.y - transform.position.y);
 
-        // Si el jugador está en otra plataforma, el enemigo se queda quieto.
+        // Si Naruto está en otra plataforma,
+        // el enemigo no lo persigue.
         if (distanceY > verticalRange)
         {
-            movement = Vector2.zero;
-            animator.SetBool("Caminando", false);
+            DetenerEnemigo();
             return;
         }
 
-        // Si el jugador está en el mismo suelo y dentro del rango, lo persigue.
-        if (distanceX <= detectionRadius)
+        // Persigue al jugador si está dentro del rango.
+        if (distanceX <= detectionRadius &&
+            distanceX > distanciaMinima)
         {
-            float directionX = player.position.x - transform.position.x;
+            float directionX =
+                player.position.x - transform.position.x;
 
             if (directionX > 0)
             {
-                // Jugador a la derecha.
-                movement = new Vector2(1, 0);
+                movement = Vector2.right;
                 spriteRenderer.flipX = false;
             }
-            else if (directionX < 0)
+            else
             {
-                // Jugador a la izquierda.
-                movement = new Vector2(-1, 0);
+                movement = Vector2.left;
                 spriteRenderer.flipX = true;
             }
 
@@ -73,13 +76,26 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            movement = Vector2.zero;
-            animator.SetBool("Caminando", false);
+            DetenerEnemigo();
         }
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        // Solo modificamos el movimiento horizontal.
+        rb.linearVelocity = new Vector2(
+            movement.x * speed,
+            rb.linearVelocity.y
+        );
+    }
+
+    void DetenerEnemigo()
+    {
+        movement = Vector2.zero;
+
+        if (animator != null)
+        {
+            animator.SetBool("Caminando", false);
+        }
     }
 }
