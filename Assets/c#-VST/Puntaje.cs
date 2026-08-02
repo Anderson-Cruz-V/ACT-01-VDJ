@@ -1,26 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using TMPro;
 
 public class Puntaje : MonoBehaviour
 {
-    private float puntos;
+    private int puntos;
     private TextMeshProUGUI textMesh;
+
+    public int Puntos => puntos;
+    public event Action<int> PuntosCambiados;
 
     private void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
-    }
-
-    private void Update()
-    {
-        puntos += Time.deltaTime;
-        textMesh.text = puntos.ToString("0");
+        puntos = 0;
+        ActualizarTexto();
     }
 
     public void SumarPuntos(float puntosEntrada)
     {
-        puntos += puntosEntrada;
+        int cantidad = Mathf.Max(0, Mathf.RoundToInt(puntosEntrada));
+        puntos += cantidad;
+        ActualizarTexto();
+        PuntosCambiados?.Invoke(puntos);
+    }
+
+    private void ActualizarTexto()
+    {
+        if (textMesh != null)
+        {
+            textMesh.text = $"PUNTAJE  {puntos:0000}";
+        }
     }
 }

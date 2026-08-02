@@ -6,15 +6,20 @@ public class Shuriken : MonoBehaviour
     [SerializeField] private float cantidadPuntos = 100f; 
     [SerializeField] private Puntaje puntaje; 
 
+    private void Awake()
+    {
+        if (puntaje == null)
+        {
+            puntaje = FindAnyObjectByType<Puntaje>();
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             
-            if (puntaje != null)
-            {
-                puntaje.SumarPuntos(cantidadPuntos);
-            }
+            if (puntaje != null) puntaje.SumarPuntos(cantidadPuntos);
 
             
             if (efecto != null)

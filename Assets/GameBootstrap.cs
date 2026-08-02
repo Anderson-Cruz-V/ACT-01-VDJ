@@ -13,7 +13,8 @@ public class GameBootstrap : MonoBehaviour
     private TMP_Text livesText;
     private GameObject endPanel;
     private TMP_Text endTitle;
-    private float score;
+    private int score;
+    private Puntaje scoreManager;
     private bool finished;
     private bool paused;
     private float goalX;
@@ -33,9 +34,15 @@ public class GameBootstrap : MonoBehaviour
         health = playerObject.GetComponent<PlayerHealth>() ?? playerObject.AddComponent<PlayerHealth>();
         health.OnHealthChanged += RefreshLives;
         health.OnDefeated += () => Finish(false);
-        Puntaje legacyScore = FindAnyObjectByType<Puntaje>();
-        if (legacyScore != null) legacyScore.gameObject.SetActive(false);
         BuildUi();
+        scoreManager = FindAnyObjectByType<Puntaje>();
+        if (scoreManager != null)
+        {
+            scoreManager.PuntosCambiados += RefreshScore;
+            TMP_Text legacyText = scoreManager.GetComponent<TMP_Text>();
+            if (legacyText != null) legacyText.enabled = false;
+            RefreshScore(scoreManager.Puntos);
+        }
         RefreshLives(health.CurrentHealth);
         goalX = FindLevelEndX();
         CreateGoal(goalX);
@@ -45,12 +52,7 @@ public class GameBootstrap : MonoBehaviour
     {
         if (player == null || finished) return;
         if (Input.GetKeyDown(KeyCode.Escape)) TogglePause();
-        if (!paused)
-        {
-            score += Time.deltaTime * 10f;
-            scoreText.text = $"PUNTAJE  {score:0000}";
-            if (player.position.x >= goalX - 0.5f) Finish(true);
-        }
+        if (!paused && player.position.x >= goalX - 0.5f) Finish(true);
     }
 
     private float FindLevelEndX()
@@ -105,6 +107,12 @@ public class GameBootstrap : MonoBehaviour
 
     private void RefreshLives(int value) => livesText.text = $"VIDAS  {value}";
 
+    private void RefreshScore(int value)
+    {
+        score = value;
+        scoreText.text = $"PUNTAJE  {score:0000}";
+    }
+
     private void TogglePause()
     {
         paused = !paused;
@@ -117,7 +125,6 @@ public class GameBootstrap : MonoBehaviour
     {
         if (finished) return;
         finished = true;
-        score += won ? 1000f : 0f;
         endTitle.text = won ? "¡MISIÓN CUMPLIDA!" : "MISIÓN FALLIDA";
         endTitle.color = won ? new Color(1f, .72f, .08f) : new Color(1f, .25f, .2f);
         endPanel.SetActive(true);
