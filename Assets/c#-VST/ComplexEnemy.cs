@@ -38,6 +38,12 @@ public class ComplexEnemy : MonoBehaviour
 
     void Update()
     {
+        if (player == null)
+        {
+            animator.SetBool("Caminando", false);
+            return;
+        }
+
         // Calcula la distancia horizontal entre el enemigo y el jugador.
         float distanceX = Mathf.Abs(player.position.x - transform.position.x);
 

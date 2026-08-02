@@ -445,9 +445,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ComplexEnemy
   player: {fileID: 1909024852}
-  detectionRange: 8
-  attackRange: 1.8
-  verticalRange: 6
+  detectionRange: 5
+  attackRange: 1.5
+  verticalRange: 1.5
   speed: 2
   attackCooldown: 2
 --- !u!95 &180399537
@@ -1258,7 +1258,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5210,8 +5210,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   velocidad: 5
-  fuerzaSalto: 11
+  fuerzaSalto: 7
   tiempoDanio: 0.6
+  vidaMaxima: 3
 --- !u!95 &1909024854
 Animator:
   serializedVersion: 7
