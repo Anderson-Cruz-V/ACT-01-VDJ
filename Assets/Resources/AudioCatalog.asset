@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e785951365d42545b2ad8c44e4581dd, type: 3}
+  m_Name: AudioCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::AudioCatalog
+  levelMusic: {fileID: 8300000, guid: d83a02b4e2017ac45b30036a74099cd3, type: 3}
+  jump: {fileID: 8300000, guid: 732ed495da32fd74585c7bb7817da180, type: 3}
+  landing: {fileID: 8300000, guid: 4290bdaa5ec76664283d1e5717ae6dca, type: 3}
+  damage: {fileID: 8300000, guid: ffb827713e1acf340a1ca247091f75a6, type: 3}
+  kunaiThrow: {fileID: 8300000, guid: a7eb172c93d3c2c4088ebc4ee4cd3f89, type: 3}
+  rasengan: {fileID: 8300000, guid: 1cbc2636a14cae74fb07c756f4010fb3, type: 3}
+  enemyAttack: {fileID: 8300000, guid: b889b2ff7d9175c4a993c9e00f40ab3e, type: 3}
+  enemyDefeated: {fileID: 8300000, guid: bad2b602d1aa4f34ab6de4079fdd60fa, type: 3}
+  collectPoints: {fileID: 8300000, guid: f9503ee1506951048b4c96f51a9f22ae, type: 3}
+  button: {fileID: 8300000, guid: 4552b629b0977da479dd1fa166aa5a4a, type: 3}
+  pause: {fileID: 8300000, guid: db6e34dc09077cf4088a615feeac5a84, type: 3}
+  victory: {fileID: 8300000, guid: 8eea1df3e7007a74ab75deb936eae1fe, type: 3}
+  gameOver: {fileID: 8300000, guid: 45a101c9e996cb24c9960ec74da3bb38, type: 3}

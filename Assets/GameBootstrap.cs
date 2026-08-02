@@ -116,6 +116,7 @@ public class GameBootstrap : MonoBehaviour
     private void TogglePause()
     {
         paused = !paused;
+        GameAudioManager.Play(GameSound.Pause, 0.2f);
         Time.timeScale = paused ? 0f : 1f;
         if (paused) { endTitle.text = "PAUSA"; endPanel.SetActive(true); }
         else endPanel.SetActive(false);
@@ -125,6 +126,7 @@ public class GameBootstrap : MonoBehaviour
     {
         if (finished) return;
         finished = true;
+        GameAudioManager.Play(won ? GameSound.Victory : GameSound.GameOver, 0.5f);
         endTitle.text = won ? "¡MISIÓN CUMPLIDA!" : "MISIÓN FALLIDA";
         endTitle.color = won ? new Color(1f, .72f, .08f) : new Color(1f, .25f, .2f);
         endPanel.SetActive(true);
@@ -199,7 +201,10 @@ public static class UiFactory
     {
         GameObject go = new GameObject(text, typeof(RectTransform), typeof(Image), typeof(Button)); go.transform.SetParent(parent, false);
         RectTransform rect = go.GetComponent<RectTransform>(); Anchor(rect, new Vector2(.5f, .45f), new Vector2(.5f, .45f), position, new Vector2(420, 72));
-        go.GetComponent<Image>().color = new Color(.95f, .38f, .05f, 1f); go.GetComponent<Button>().onClick.AddListener(action);
+        go.GetComponent<Image>().color = new Color(.95f, .38f, .05f, 1f);
+        Button button = go.GetComponent<Button>();
+        button.onClick.AddListener(() => GameAudioManager.Play(GameSound.Button));
+        button.onClick.AddListener(action);
         TMP_Text label = Label(go.transform, text, 25, TextAlignmentOptions.Center); label.rectTransform.anchorMin = Vector2.zero; label.rectTransform.anchorMax = Vector2.one; label.rectTransform.offsetMin = label.rectTransform.offsetMax = Vector2.zero;
     }
 

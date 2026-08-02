@@ -20,6 +20,8 @@ public class Shuriken : MonoBehaviour
         {
             
             if (puntaje != null) puntaje.SumarPuntos(cantidadPuntos);
+            GameAudioManager.Play(GameSound.CollectPoints, 0.05f);
+            GameAudioVfx.Burst(transform.position, new Color(1f, .78f, .08f, .95f), 16, .15f);
 
             
             if (efecto != null)

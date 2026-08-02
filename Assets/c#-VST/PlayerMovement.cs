@@ -91,6 +91,7 @@ public class PlayerController : MonoBehaviour
             estaEnSuelo = false;
 
             animator.SetTrigger("jump");
+            GameAudioManager.Play(GameSound.Jump);
         }
     }
 
@@ -103,6 +104,11 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo"))
         {
             estaEnSuelo = true;
+            if (collision.relativeVelocity.y > 2f)
+            {
+                GameAudioManager.Play(GameSound.Landing, 0.15f);
+                GameAudioVfx.Burst(transform.position + Vector3.down * 0.45f, new Color(.72f, .62f, .45f, .9f), 9, .12f);
+            }
         }
     }
 
@@ -152,6 +158,8 @@ public class PlayerController : MonoBehaviour
 
         // Animación de daño
         animator.SetTrigger("Danio");
+        GameAudioManager.Play(GameSound.Damage, 0.3f);
+        GameAudioVfx.Burst(transform.position, new Color(1f, .15f, .08f, .95f), 14, .15f);
 
         // Comprobar si murió
         if (vidaActual <= 0)
@@ -173,5 +181,14 @@ public class PlayerController : MonoBehaviour
     void TerminarDanio()
     {
         recibiendoDanio = false;
+    }
+
+    // Hooks listos para eventos de animación; no agregan mecánicas nuevas.
+    public void SonidoLanzarKunai() => GameAudioManager.PlayKunaiThrow();
+    public void SonidoRasengan()
+    {
+        GameAudioManager.PlayRasengan();
+        float direction = spriteRenderer != null && spriteRenderer.flipX ? -0.65f : 0.65f;
+        GameAudioVfx.Burst(transform.position + Vector3.right * direction, new Color(.2f, .65f, 1f, .95f), 20, .2f);
     }
 }
