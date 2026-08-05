@@ -4,21 +4,18 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform jugador;
 
+    // Velocidad con la que la cámara sigue al jugador
     public float suavizado = 5f;
 
-    // Límites horizontales
-    public float limiteIzquierdo = -20f;
-    public float limiteDerecho = 70f;
+    // Límites horizontales del escenario
+    public float limiteIzquierdo = -15f;
+    public float limiteDerecho = 90f;
 
-    // Altura fija de la cámara
+    // La cámara NO seguirá el salto de Naruto
     public float alturaCamara = 1.5f;
-
-    private Camera camara;
 
     void Start()
     {
-        camara = GetComponent<Camera>();
-
         ActualizarCamara(true);
     }
 
@@ -32,29 +29,31 @@ public class CameraFollow : MonoBehaviour
         if (jugador == null)
             return;
 
-        // Sigue solamente la posición X del jugador
+        // Seguir solamente a Naruto horizontalmente
         float posicionX = Mathf.Clamp(
             jugador.position.x,
             limiteIzquierdo,
             limiteDerecho
         );
 
+        // Y siempre permanece fija
         Vector3 destino = new Vector3(
             posicionX,
             alturaCamara,
             -10f
         );
 
-        float factor = 1f - Mathf.Exp(
-            -suavizado * Time.deltaTime
-        );
-
-        transform.position = inmediato
-            ? destino
-            : Vector3.Lerp(
+        if (inmediato)
+        {
+            transform.position = destino;
+        }
+        else
+        {
+            transform.position = Vector3.Lerp(
                 transform.position,
                 destino,
-                factor
+                suavizado * Time.deltaTime
             );
+        }
     }
 }

@@ -44,39 +44,16 @@ public class GameBootstrap : MonoBehaviour
             RefreshScore(scoreManager.Puntos);
         }
         RefreshLives(health.CurrentHealth);
-        goalX = FindLevelEndX();
-        CreateGoal(goalX);
+       
     }
 
-    private void Update()
+    private void Update()   
     {
         if (player == null || finished) return;
         if (Input.GetKeyDown(KeyCode.Escape)) TogglePause();
-        if (!paused && player.position.x >= goalX - 0.5f) Finish(true);
     }
 
-    private float FindLevelEndX()
-    {
-        float maxX = player.position.x + 25f;
-        foreach (Renderer renderer in FindObjectsByType<Renderer>(FindObjectsInactive.Exclude))
-            if (renderer.gameObject.scene == gameObject.scene && renderer.bounds.max.x > maxX)
-                maxX = renderer.bounds.max.x;
-        return Mathf.Clamp(maxX - 1.5f, player.position.x + 18f, player.position.x + 55f);
-    }
-
-    private void CreateGoal(float x)
-    {
-        GameObject goal = new GameObject("Meta Final");
-        goal.transform.position = new Vector3(x, player.position.y + 1.5f, 0f);
-        var sprite = goal.AddComponent<SpriteRenderer>();
-        sprite.sprite = MakeSprite(new Color(1f, .65f, .05f, .9f));
-        sprite.sortingOrder = 20;
-        goal.transform.localScale = new Vector3(.7f, 3.5f, 1f);
-        var collider = goal.AddComponent<BoxCollider2D>();
-        collider.isTrigger = true;
-        goal.AddComponent<GoalTrigger>().Manager = this;
-    }
-
+ 
     private Sprite MakeSprite(Color color)
     {
         var texture = new Texture2D(1, 1);
@@ -134,11 +111,6 @@ public class GameBootstrap : MonoBehaviour
     }
 }
 
-public class GoalTrigger : MonoBehaviour
-{
-    public GameBootstrap Manager;
-    private void OnTriggerEnter2D(Collider2D other) { if (other.CompareTag("Player")) Manager.ReachGoal(); }
-}
 
 public class PlayerHealth : MonoBehaviour
 {
